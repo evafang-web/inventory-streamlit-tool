@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 
-st.set_page_config(page_title="庫存週報工具v2", layout="wide")
+st.set_page_config(page_title="庫存週報工具v1", layout="wide")
 
 st.title("庫存週報工具")
 st.caption("上傳上週與本週庫存表，自動計算庫存差異與推算出貨量。")
